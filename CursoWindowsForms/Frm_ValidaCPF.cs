@@ -73,5 +73,10 @@ namespace CursoWindowsForms
                 Lbl_Resultado.ForeColor = Color.Red;
             }
         }
+
+        private void Frm_ValidaCPF_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

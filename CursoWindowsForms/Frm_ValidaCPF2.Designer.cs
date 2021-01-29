@@ -1,6 +1,7 @@
-﻿namespace CursoWindowsForms
+﻿
+namespace CursoWindowsForms
 {
-    partial class Frm_ValidaCPF
+    partial class Frm_ValidaCPF2
     {
         /// <summary>
         /// Required designer variable.
@@ -62,7 +63,7 @@
             this.Btn_Reset.TabIndex = 2;
             this.Btn_Reset.Text = "Limpa";
             this.Btn_Reset.UseVisualStyleBackColor = true;
-            this.Btn_Reset.Click += new System.EventHandler(this.Btn_Reset_Click);
+           //this.Btn_Reset.Click += new System.EventHandler(this.Btn_Reset_Click);
             // 
             // Btn_Valida
             // 
@@ -73,7 +74,7 @@
             this.Btn_Valida.TabIndex = 3;
             this.Btn_Valida.Text = "Valida";
             this.Btn_Valida.UseVisualStyleBackColor = true;
-            this.Btn_Valida.Click += new System.EventHandler(this.Btn_Valida_Click);
+           // this.Btn_Valida.Click += new System.EventHandler(this.Btn_Valida_Click);
             // 
             // Frm_ValidaCPF
             // 
@@ -86,8 +87,8 @@
             this.Controls.Add(this.Msk_CPF);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_ValidaCPF";
-            this.Text = "Valida CPF";
-            this.Load += new System.EventHandler(this.Frm_ValidaCPF_Load);
+            this.Text = "Valida CPF2";
+           // this.Load += new System.EventHandler(this.Frm_ValidaCPF2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
