@@ -30,7 +30,6 @@ namespace CursoWindowsForms
         private void InitializeComponent()
         {
             this.Msk_CPF = new System.Windows.Forms.MaskedTextBox();
-            this.Lbl_Resultado = new System.Windows.Forms.Label();
             this.Btn_Reset = new System.Windows.Forms.Button();
             this.Btn_Valida = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -44,16 +43,6 @@ namespace CursoWindowsForms
             this.Msk_CPF.Size = new System.Drawing.Size(289, 22);
             this.Msk_CPF.TabIndex = 0;
             // 
-            // Lbl_Resultado
-            // 
-            this.Lbl_Resultado.AutoSize = true;
-            this.Lbl_Resultado.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Resultado.Location = new System.Drawing.Point(16, 111);
-            this.Lbl_Resultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl_Resultado.Name = "Lbl_Resultado";
-            this.Lbl_Resultado.Size = new System.Drawing.Size(0, 24);
-            this.Lbl_Resultado.TabIndex = 1;
-            // 
             // Btn_Reset
             // 
             this.Btn_Reset.Location = new System.Drawing.Point(327, 52);
@@ -63,7 +52,7 @@ namespace CursoWindowsForms
             this.Btn_Reset.TabIndex = 2;
             this.Btn_Reset.Text = "Limpa";
             this.Btn_Reset.UseVisualStyleBackColor = true;
-           //this.Btn_Reset.Click += new System.EventHandler(this.Btn_Reset_Click);
+            this.Btn_Reset.Click += new System.EventHandler(this.Btn_Reset_Click);
             // 
             // Btn_Valida
             // 
@@ -74,21 +63,20 @@ namespace CursoWindowsForms
             this.Btn_Valida.TabIndex = 3;
             this.Btn_Valida.Text = "Valida";
             this.Btn_Valida.UseVisualStyleBackColor = true;
-           // this.Btn_Valida.Click += new System.EventHandler(this.Btn_Valida_Click);
+            this.Btn_Valida.Click += new System.EventHandler(this.Btn_Valida_Click);
             // 
-            // Frm_ValidaCPF
+            // Frm_ValidaCPF2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(491, 190);
             this.Controls.Add(this.Btn_Valida);
             this.Controls.Add(this.Btn_Reset);
-            this.Controls.Add(this.Lbl_Resultado);
             this.Controls.Add(this.Msk_CPF);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Frm_ValidaCPF";
-            this.Text = "Valida CPF2";
-           // this.Load += new System.EventHandler(this.Frm_ValidaCPF2_Load);
+            this.Name = "Frm_ValidaCPF2";
+            this.Text = "Valida CPF";
+            this.Load += new System.EventHandler(this.Frm_ValidaCPF2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,7 +85,6 @@ namespace CursoWindowsForms
         #endregion
 
         private System.Windows.Forms.MaskedTextBox Msk_CPF;
-        private System.Windows.Forms.Label Lbl_Resultado;
         private System.Windows.Forms.Button Btn_Reset;
         private System.Windows.Forms.Button Btn_Valida;
     }

@@ -105,6 +105,9 @@
     <EmbeddedResource Include="Frm_ValidaCPF.resx">
       <DependentUpon>Frm_ValidaCPF.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ValidaCPF2.resx">
+      <DependentUpon>Frm_ValidaCPF2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_ValidaSenha.resx">
       <DependentUpon>Frm_ValidaSenha.cs</DependentUpon>
     </EmbeddedResource>

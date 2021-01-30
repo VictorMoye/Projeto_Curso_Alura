@@ -26,3 +26,4 @@ C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.G
 C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CoreCompileInputs.cache
 C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.exe
 C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.pdb
+C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaCPF2.resources
