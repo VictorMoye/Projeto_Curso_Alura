@@ -76,7 +76,6 @@ namespace CursoWindowsForms
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_ValidaCPF2";
             this.Text = "Valida CPF";
-            this.Load += new System.EventHandler(this.Frm_ValidaCPF2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

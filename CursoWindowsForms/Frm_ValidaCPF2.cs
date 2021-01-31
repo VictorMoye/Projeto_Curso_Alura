@@ -56,23 +56,43 @@ namespace CursoWindowsForms
         }
         private void Btn_Valida_Click(object sender, EventArgs e)
         {
-            bool validaCPF = false;
-            validaCPF = Valida(Msk_CPF.Text);
-            if (validaCPF == true)
+            string vConteudo;
+            vConteudo = Msk_CPF.Text;
+            vConteudo = vConteudo.Replace(".", "").Replace("-", ""); // repalce é pra substituir no caso subistituir . por vazio e - por vazio 
+            vConteudo = vConteudo.Trim(); // tira os vazios se entendi direito
+            if (vConteudo == "")
             {
-                // caixa de mensagem 
-                MessageBox.Show("CPF VÁLIDO","Mensagem de validação",MessageBoxButtons.OK,MessageBoxIcon.Information);//peimeiro argumento é a validação a segunda é a mensagem que vai vir no caption, e o terceiro é o icon 
-               
+                MessageBox.Show("Voce deve digitar o valor do CPF", "Mensagem de Validação", MessageBoxButtons.OK);
+
             }
             else
             {
-                MessageBox.Show("CPF INVALIDO", "Mensagem de Validação",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                //controlando a quantidade de numeros contida na barra validar 
+                if (vConteudo.Length != 11)
+                {
+                    MessageBox.Show("O CPF deve conter 12 Números", "Mensagem de Validação", MessageBoxButtons.OK);
+                }                
+                else
+                {
+                    //pergunta se o usuario quer validar O CPF dele ou não 
+                    if (MessageBox.Show("Voce deseja realmente valida o CPF ?", "Mensagem de Validação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) ;//dialog confirma se vc clicou no botom Ys mas poderia ser tbm NÃO
+                    {
+                        bool validaCPF = false;
+                        validaCPF = Valida(Msk_CPF.Text);
+                        if (validaCPF == true)
+                        {
+                            // caixa de mensagem 
+                            MessageBox.Show("CPF VÁLIDO", "Mensagem de validação", MessageBoxButtons.OK, MessageBoxIcon.Information);//peimeiro argumento é a validação a segunda é a mensagem que vai vir no caption, e o terceiro é o icon 
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("CPF INVALIDO", "Mensagem de Validação", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
             }
         }
 
-        private void Frm_ValidaCPF2_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
