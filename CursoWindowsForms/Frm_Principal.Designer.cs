@@ -136,7 +136,7 @@ namespace CursoWindowsForms
             this.Controls.Add(this.Btn_Desmostracao_Key);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_Principal";
-            this.Text = "Frm_Principal";
+            this.Text = "Principal";
             this.ResumeLayout(false);
 
         }

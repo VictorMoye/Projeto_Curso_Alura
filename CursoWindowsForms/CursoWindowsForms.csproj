@@ -95,6 +95,12 @@
     <Compile Include="Frm_Principal.Designer.cs">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Principal_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal_Menu.Designer.cs">
+      <DependentUpon>Frm_Principal_Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios Curso 1\Frm_DemonstracaoKey.resx">
@@ -118,6 +124,9 @@
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal_Menu.resx">
+      <DependentUpon>Frm_Principal_Menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -126,6 +135,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -145,6 +155,21 @@
       <Project>{68b11e62-ff9f-42a0-92b5-f9884bbb1bb3}</Project>
       <Name>CursoWindonsFormsBiblioteca</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagem\Frm_DemonstracaoKey.ico" />
+    <Content Include="Imagem\Frm_DemonstracaoKey.png" />
+    <Content Include="Imagem\Frm_HelloWorld.ico" />
+    <Content Include="Imagem\Frm_HelloWorld.png" />
+    <Content Include="Imagem\Frm_Mascara.ico" />
+    <Content Include="Imagem\Frm_Mascara.png" />
+    <Content Include="Imagem\Frm_Principal.ico" />
+    <Content Include="Imagem\Frm_ValidaCPF.ico" />
+    <Content Include="Imagem\Frm_ValidaCPF.png" />
+    <Content Include="Imagem\Frm_ValidaCPF2.ico" />
+    <Content Include="Imagem\Frm_ValidaCPF2.png" />
+    <Content Include="Imagem\Frm_ValidaSenha.ico" />
+    <Content Include="Imagem\Frm_ValidaSenha.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
