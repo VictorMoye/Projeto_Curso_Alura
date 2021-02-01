@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_HelloWorld));
             this.lbl_Titulo = new System.Windows.Forms.Label();
             this.Btn_Sair = new System.Windows.Forms.Button();
             this.Btn_ModificaLabel = new System.Windows.Forms.Button();
@@ -38,17 +39,19 @@
             // 
             this.lbl_Titulo.AutoSize = true;
             this.lbl_Titulo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Titulo.Location = new System.Drawing.Point(30, 30);
+            this.lbl_Titulo.Location = new System.Drawing.Point(40, 37);
+            this.lbl_Titulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Titulo.Name = "lbl_Titulo";
-            this.lbl_Titulo.Size = new System.Drawing.Size(213, 19);
+            this.lbl_Titulo.Size = new System.Drawing.Size(263, 24);
             this.lbl_Titulo.TabIndex = 0;
             this.lbl_Titulo.Text = "Visual Studio .NET Version";
             // 
             // Btn_Sair
             // 
-            this.Btn_Sair.Location = new System.Drawing.Point(250, 265);
+            this.Btn_Sair.Location = new System.Drawing.Point(333, 326);
+            this.Btn_Sair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_Sair.Name = "Btn_Sair";
-            this.Btn_Sair.Size = new System.Drawing.Size(150, 23);
+            this.Btn_Sair.Size = new System.Drawing.Size(200, 28);
             this.Btn_Sair.TabIndex = 1;
             this.Btn_Sair.Text = "Fechar a aplicação";
             this.Btn_Sair.UseVisualStyleBackColor = true;
@@ -56,9 +59,10 @@
             // 
             // Btn_ModificaLabel
             // 
-            this.Btn_ModificaLabel.Location = new System.Drawing.Point(34, 52);
+            this.Btn_ModificaLabel.Location = new System.Drawing.Point(45, 64);
+            this.Btn_ModificaLabel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_ModificaLabel.Name = "Btn_ModificaLabel";
-            this.Btn_ModificaLabel.Size = new System.Drawing.Size(209, 23);
+            this.Btn_ModificaLabel.Size = new System.Drawing.Size(279, 28);
             this.Btn_ModificaLabel.TabIndex = 2;
             this.Btn_ModificaLabel.Text = "Modifica Texto do Label";
             this.Btn_ModificaLabel.UseVisualStyleBackColor = true;
@@ -66,21 +70,24 @@
             // 
             // Txt_ConteudoLabel
             // 
-            this.Txt_ConteudoLabel.Location = new System.Drawing.Point(34, 81);
+            this.Txt_ConteudoLabel.Location = new System.Drawing.Point(45, 100);
+            this.Txt_ConteudoLabel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_ConteudoLabel.Name = "Txt_ConteudoLabel";
-            this.Txt_ConteudoLabel.Size = new System.Drawing.Size(311, 20);
+            this.Txt_ConteudoLabel.Size = new System.Drawing.Size(413, 22);
             this.Txt_ConteudoLabel.TabIndex = 3;
             // 
             // Frm_HelloWorld
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(412, 300);
+            this.ClientSize = new System.Drawing.Size(549, 369);
             this.Controls.Add(this.Txt_ConteudoLabel);
             this.Controls.Add(this.Btn_ModificaLabel);
             this.Controls.Add(this.Btn_Sair);
             this.Controls.Add(this.lbl_Titulo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_HelloWorld";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hello World";

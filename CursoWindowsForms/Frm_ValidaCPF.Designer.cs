@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_ValidaCPF));
             this.Msk_CPF = new System.Windows.Forms.MaskedTextBox();
             this.Lbl_Resultado = new System.Windows.Forms.Label();
             this.Btn_Reset = new System.Windows.Forms.Button();
@@ -37,7 +38,7 @@
             // Msk_CPF
             // 
             this.Msk_CPF.Location = new System.Drawing.Point(16, 55);
-            this.Msk_CPF.Margin = new System.Windows.Forms.Padding(4);
+            this.Msk_CPF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Msk_CPF.Mask = "000,000,000-00";
             this.Msk_CPF.Name = "Msk_CPF";
             this.Msk_CPF.Size = new System.Drawing.Size(289, 22);
@@ -56,7 +57,7 @@
             // Btn_Reset
             // 
             this.Btn_Reset.Location = new System.Drawing.Point(327, 52);
-            this.Btn_Reset.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_Reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_Reset.Name = "Btn_Reset";
             this.Btn_Reset.Size = new System.Drawing.Size(148, 28);
             this.Btn_Reset.TabIndex = 2;
@@ -67,7 +68,7 @@
             // Btn_Valida
             // 
             this.Btn_Valida.Location = new System.Drawing.Point(327, 87);
-            this.Btn_Valida.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_Valida.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_Valida.Name = "Btn_Valida";
             this.Btn_Valida.Size = new System.Drawing.Size(148, 28);
             this.Btn_Valida.TabIndex = 3;
@@ -84,10 +85,11 @@
             this.Controls.Add(this.Btn_Reset);
             this.Controls.Add(this.Lbl_Resultado);
             this.Controls.Add(this.Msk_CPF);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_ValidaCPF";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Valida CPF";
-            this.Load += new System.EventHandler(this.Frm_ValidaCPF_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

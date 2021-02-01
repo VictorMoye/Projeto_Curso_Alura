@@ -34,20 +34,5 @@ namespace CursoWindowsForms
             Lbl_Lower.Text = "";
 
         }
-
-        private void Frm_DemonstracaoKey_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Txt_Msg_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Txt_Input_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

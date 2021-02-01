@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_DemonstracaoKey));
             this.Txt_Input = new System.Windows.Forms.TextBox();
             this.Txt_Msg = new System.Windows.Forms.TextBox();
             this.Btn_Reset = new System.Windows.Forms.Button();
@@ -44,7 +45,6 @@
             this.Txt_Input.Name = "Txt_Input";
             this.Txt_Input.Size = new System.Drawing.Size(132, 22);
             this.Txt_Input.TabIndex = 0;
-            this.Txt_Input.TextChanged += new System.EventHandler(this.Txt_Input_TextChanged);
             this.Txt_Input.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Input_KeyDown);
             // 
             // Txt_Msg
@@ -57,7 +57,6 @@
             this.Txt_Msg.Size = new System.Drawing.Size(404, 285);
             this.Txt_Msg.TabIndex = 1;
             this.Txt_Msg.TabStop = false;
-            this.Txt_Msg.TextChanged += new System.EventHandler(this.Txt_Msg_TextChanged);
             // 
             // Btn_Reset
             // 
@@ -120,11 +119,11 @@
             this.Controls.Add(this.Btn_Reset);
             this.Controls.Add(this.Txt_Msg);
             this.Controls.Add(this.Txt_Input);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_DemonstracaoKey";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Demonstração Evento Key";
-            this.Load += new System.EventHandler(this.Frm_DemonstracaoKey_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

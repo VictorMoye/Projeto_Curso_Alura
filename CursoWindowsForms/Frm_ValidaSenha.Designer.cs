@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_ValidaSenha));
             this.Txt_Senha = new System.Windows.Forms.TextBox();
             this.Lbl_Resultado = new System.Windows.Forms.Label();
             this.Btn_Reset = new System.Windows.Forms.Button();
@@ -36,10 +37,11 @@
             // 
             // Txt_Senha
             // 
-            this.Txt_Senha.Location = new System.Drawing.Point(12, 45);
+            this.Txt_Senha.Location = new System.Drawing.Point(16, 55);
+            this.Txt_Senha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_Senha.Name = "Txt_Senha";
             this.Txt_Senha.PasswordChar = '*';
-            this.Txt_Senha.Size = new System.Drawing.Size(218, 20);
+            this.Txt_Senha.Size = new System.Drawing.Size(289, 22);
             this.Txt_Senha.TabIndex = 0;
             this.Txt_Senha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Senha_KeyDown);
             // 
@@ -47,16 +49,18 @@
             // 
             this.Lbl_Resultado.AutoSize = true;
             this.Lbl_Resultado.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Resultado.Location = new System.Drawing.Point(12, 90);
+            this.Lbl_Resultado.Location = new System.Drawing.Point(16, 111);
+            this.Lbl_Resultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Resultado.Name = "Lbl_Resultado";
-            this.Lbl_Resultado.Size = new System.Drawing.Size(0, 22);
+            this.Lbl_Resultado.Size = new System.Drawing.Size(0, 29);
             this.Lbl_Resultado.TabIndex = 1;
             // 
             // Btn_Reset
             // 
-            this.Btn_Reset.Location = new System.Drawing.Point(245, 42);
+            this.Btn_Reset.Location = new System.Drawing.Point(327, 52);
+            this.Btn_Reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_Reset.Name = "Btn_Reset";
-            this.Btn_Reset.Size = new System.Drawing.Size(111, 23);
+            this.Btn_Reset.Size = new System.Drawing.Size(148, 28);
             this.Btn_Reset.TabIndex = 2;
             this.Btn_Reset.Text = "Limpa";
             this.Btn_Reset.UseVisualStyleBackColor = true;
@@ -64,9 +68,10 @@
             // 
             // Btn_VerSenha
             // 
-            this.Btn_VerSenha.Location = new System.Drawing.Point(245, 71);
+            this.Btn_VerSenha.Location = new System.Drawing.Point(327, 87);
+            this.Btn_VerSenha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_VerSenha.Name = "Btn_VerSenha";
-            this.Btn_VerSenha.Size = new System.Drawing.Size(111, 23);
+            this.Btn_VerSenha.Size = new System.Drawing.Size(148, 28);
             this.Btn_VerSenha.TabIndex = 3;
             this.Btn_VerSenha.Text = "Ver Senha";
             this.Btn_VerSenha.UseVisualStyleBackColor = true;
@@ -74,13 +79,15 @@
             // 
             // Frm_ValidaSenha
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(368, 154);
+            this.ClientSize = new System.Drawing.Size(491, 190);
             this.Controls.Add(this.Btn_VerSenha);
             this.Controls.Add(this.Btn_Reset);
             this.Controls.Add(this.Lbl_Resultado);
             this.Controls.Add(this.Txt_Senha);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_ValidaSenha";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Validação de Senha";
