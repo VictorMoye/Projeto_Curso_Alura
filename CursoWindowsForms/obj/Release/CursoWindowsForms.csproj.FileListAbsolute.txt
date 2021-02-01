@@ -1,0 +1,16 @@
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\bin\Release\CursoWindowsForms.exe.config
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\bin\Release\CursoWindowsForms.exe
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\bin\Release\CursoWindowsForms.pdb
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_DemonstracaoKey.resources
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_HelloWorld.resources
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Mascara.resources
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Principal.resources
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF.resources
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF2.resources
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaSenha.resources
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.Properties.Resources.resources
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.GenerateResource.cache
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.CoreCompileInputs.cache
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.exe
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.pdb
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindowsForms\obj\Release\CursoWindowsForms.csprojAssemblyReference.cache

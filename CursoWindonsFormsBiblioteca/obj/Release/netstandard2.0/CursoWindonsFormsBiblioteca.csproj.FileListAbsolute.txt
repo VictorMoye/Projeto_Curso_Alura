@@ -1,0 +1,9 @@
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindonsFormsBiblioteca\bin\Release\netstandard2.0\CursoWindonsFormsBiblioteca.deps.json
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindonsFormsBiblioteca\bin\Release\netstandard2.0\CursoWindonsFormsBiblioteca.dll
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindonsFormsBiblioteca\bin\Release\netstandard2.0\CursoWindonsFormsBiblioteca.pdb
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindonsFormsBiblioteca\obj\Release\netstandard2.0\CursoWindonsFormsBiblioteca.csprojAssemblyReference.cache
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindonsFormsBiblioteca\obj\Release\netstandard2.0\CursoWindonsFormsBiblioteca.AssemblyInfoInputs.cache
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindonsFormsBiblioteca\obj\Release\netstandard2.0\CursoWindonsFormsBiblioteca.AssemblyInfo.cs
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindonsFormsBiblioteca\obj\Release\netstandard2.0\CursoWindonsFormsBiblioteca.csproj.CoreCompileInputs.cache
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindonsFormsBiblioteca\obj\Release\netstandard2.0\CursoWindonsFormsBiblioteca.dll
+C:\P\CSharp\CusoWinsForms\Projeto_Curso_Alura\CursoWindonsFormsBiblioteca\obj\Release\netstandard2.0\CursoWindonsFormsBiblioteca.pdb
