@@ -101,6 +101,12 @@
     <Compile Include="Frm_Principal_Menu.Designer.cs">
       <DependentUpon>Frm_Principal_Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Principal_menu_MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal_menu_MDI.Designer.cs">
+      <DependentUpon>Frm_Principal_menu_MDI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios Curso 1\Frm_DemonstracaoKey.resx">

@@ -10,44 +10,43 @@ using System.Windows.Forms;
 
 namespace CursoWindowsForms
 {
-    public partial class Frm_Principal : Form
+    public partial class Frm_Principal_menu_MDI : Form
     {
-        public Frm_Principal()
+        public Frm_Principal_menu_MDI()
         {
             InitializeComponent();
         }
-
-        private void Btn_Desmostracao_Key_Click(object sender, EventArgs e)
+        private void demostraçãoKeyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_DemonstracaoKey abir = new Frm_DemonstracaoKey();
-            abir.Show(); 
+            abir.Show();
         }
 
-        private void Btn_Hello_Word_Click(object sender, EventArgs e)
+        private void helloWordToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_HelloWorld abir = new Frm_HelloWorld();
             abir.Show();
         }
 
-        private void Btn_Mascara_Click(object sender, EventArgs e)
+        private void mascaraToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_Mascara abir = new Frm_Mascara();
             abir.Show();
         }
 
-        private void Btn_ValidaCPF_Click(object sender, EventArgs e)
+        private void validaCPFToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_ValidaCPF abir = new Frm_ValidaCPF();
             abir.Show();
         }
 
-        private void Btn_ValdiaCPF2_Click(object sender, EventArgs e)
+        private void validaCPF2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_ValidaCPF2 abir = new Frm_ValidaCPF2();
             abir.Show();
         }
 
-        private void Btn_ValidaSenha_Click(object sender, EventArgs e)
+        private void validaSenhaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_ValidaSenha abir = new Frm_ValidaSenha();
             abir.Show();
