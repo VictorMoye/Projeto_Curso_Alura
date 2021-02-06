@@ -52,5 +52,9 @@ namespace CursoWindowsForms
             abir.Show();
         }
 
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close(); 
+        }
     }
 }

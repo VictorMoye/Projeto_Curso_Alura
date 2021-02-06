@@ -29,7 +29,6 @@ namespace CursoWindowsForms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal_Menu));
             this.Mnu_Principal = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -80,7 +79,6 @@ namespace CursoWindowsForms
             // 
             // demostraçãoKeyToolStripMenuItem
             // 
-            this.demostraçãoKeyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("demostraçãoKeyToolStripMenuItem.Image")));
             this.demostraçãoKeyToolStripMenuItem.Name = "demostraçãoKeyToolStripMenuItem";
             this.demostraçãoKeyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.K)));
             this.demostraçãoKeyToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
@@ -89,7 +87,6 @@ namespace CursoWindowsForms
             // 
             // helloWordToolStripMenuItem
             // 
-            this.helloWordToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("helloWordToolStripMenuItem.Image")));
             this.helloWordToolStripMenuItem.Name = "helloWordToolStripMenuItem";
             this.helloWordToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.W)));
             this.helloWordToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
@@ -98,7 +95,6 @@ namespace CursoWindowsForms
             // 
             // mascaraToolStripMenuItem
             // 
-            this.mascaraToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("mascaraToolStripMenuItem.Image")));
             this.mascaraToolStripMenuItem.Name = "mascaraToolStripMenuItem";
             this.mascaraToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.M)));
             this.mascaraToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
@@ -137,6 +133,7 @@ namespace CursoWindowsForms
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // windowsToolStripMenuItem
             // 
@@ -144,14 +141,14 @@ namespace CursoWindowsForms
             this.windowsToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.windowsToolStripMenuItem.Text = "Windows";
             // 
-            // Frm_Principal_Menu
+            // Frm_Principal_menu_MDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Mnu_Principal);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Frm_Principal_Menu";
+            this.IsMdiContainer = true;
+            this.Name = "Frm_Principal_menu_MDI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
             this.Mnu_Principal.ResumeLayout(false);

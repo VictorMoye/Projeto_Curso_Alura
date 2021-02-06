@@ -51,3 +51,4 @@ C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.C
 C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.exe
 C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.pdb
 C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_Menu.resources
+C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_menu_MDI.resources
