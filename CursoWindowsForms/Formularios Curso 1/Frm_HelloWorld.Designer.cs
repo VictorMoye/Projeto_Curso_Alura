@@ -48,10 +48,12 @@
             // 
             // Btn_Sair
             // 
-            this.Btn_Sair.Location = new System.Drawing.Point(333, 326);
-            this.Btn_Sair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_Sair.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_Sair.Location = new System.Drawing.Point(145, 197);
+            this.Btn_Sair.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Sair.Name = "Btn_Sair";
-            this.Btn_Sair.Size = new System.Drawing.Size(200, 28);
+            this.Btn_Sair.Size = new System.Drawing.Size(234, 46);
             this.Btn_Sair.TabIndex = 1;
             this.Btn_Sair.Text = "Fechar a aplicação";
             this.Btn_Sair.UseVisualStyleBackColor = true;
@@ -60,7 +62,7 @@
             // Btn_ModificaLabel
             // 
             this.Btn_ModificaLabel.Location = new System.Drawing.Point(45, 64);
-            this.Btn_ModificaLabel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_ModificaLabel.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_ModificaLabel.Name = "Btn_ModificaLabel";
             this.Btn_ModificaLabel.Size = new System.Drawing.Size(279, 28);
             this.Btn_ModificaLabel.TabIndex = 2;
@@ -70,10 +72,12 @@
             // 
             // Txt_ConteudoLabel
             // 
-            this.Txt_ConteudoLabel.Location = new System.Drawing.Point(45, 100);
-            this.Txt_ConteudoLabel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_ConteudoLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Txt_ConteudoLabel.Location = new System.Drawing.Point(45, 115);
+            this.Txt_ConteudoLabel.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_ConteudoLabel.Name = "Txt_ConteudoLabel";
-            this.Txt_ConteudoLabel.Size = new System.Drawing.Size(413, 22);
+            this.Txt_ConteudoLabel.Size = new System.Drawing.Size(336, 22);
             this.Txt_ConteudoLabel.TabIndex = 3;
             // 
             // Frm_HelloWorld
@@ -81,13 +85,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(549, 369);
+            this.ClientSize = new System.Drawing.Size(404, 276);
             this.Controls.Add(this.Txt_ConteudoLabel);
             this.Controls.Add(this.Btn_ModificaLabel);
             this.Controls.Add(this.Btn_Sair);
             this.Controls.Add(this.lbl_Titulo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_HelloWorld";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hello World";

@@ -41,7 +41,7 @@
             // Txt_Input
             // 
             this.Txt_Input.Location = new System.Drawing.Point(11, 10);
-            this.Txt_Input.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Input.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Input.Name = "Txt_Input";
             this.Txt_Input.Size = new System.Drawing.Size(132, 22);
             this.Txt_Input.TabIndex = 0;
@@ -49,21 +49,25 @@
             // 
             // Txt_Msg
             // 
-            this.Txt_Msg.Location = new System.Drawing.Point(11, 49);
-            this.Txt_Msg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Msg.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Txt_Msg.Location = new System.Drawing.Point(-18, 49);
+            this.Txt_Msg.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Msg.Multiline = true;
             this.Txt_Msg.Name = "Txt_Msg";
             this.Txt_Msg.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Txt_Msg.Size = new System.Drawing.Size(404, 285);
+            this.Txt_Msg.Size = new System.Drawing.Size(372, 293);
             this.Txt_Msg.TabIndex = 1;
             this.Txt_Msg.TabStop = false;
             // 
             // Btn_Reset
             // 
-            this.Btn_Reset.Location = new System.Drawing.Point(437, 10);
-            this.Btn_Reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_Reset.Location = new System.Drawing.Point(379, 10);
+            this.Btn_Reset.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Reset.Name = "Btn_Reset";
-            this.Btn_Reset.Size = new System.Drawing.Size(100, 34);
+            this.Btn_Reset.Size = new System.Drawing.Size(108, 43);
             this.Btn_Reset.TabIndex = 2;
             this.Btn_Reset.Text = "Limpa";
             this.Btn_Reset.UseVisualStyleBackColor = true;
@@ -71,8 +75,9 @@
             // 
             // Lbl_Minus
             // 
+            this.Lbl_Minus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Minus.AutoSize = true;
-            this.Lbl_Minus.Location = new System.Drawing.Point(427, 128);
+            this.Lbl_Minus.Location = new System.Drawing.Point(371, 128);
             this.Lbl_Minus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Minus.Name = "Lbl_Minus";
             this.Lbl_Minus.Size = new System.Drawing.Size(49, 17);
@@ -81,8 +86,9 @@
             // 
             // Lbl_Maius
             // 
+            this.Lbl_Maius.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Maius.AutoSize = true;
-            this.Lbl_Maius.Location = new System.Drawing.Point(427, 69);
+            this.Lbl_Maius.Location = new System.Drawing.Point(371, 69);
             this.Lbl_Maius.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Maius.Name = "Lbl_Maius";
             this.Lbl_Maius.Size = new System.Drawing.Size(49, 17);
@@ -91,8 +97,9 @@
             // 
             // Lbl_Upper
             // 
+            this.Lbl_Upper.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Upper.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_Upper.Location = new System.Drawing.Point(491, 69);
+            this.Lbl_Upper.Location = new System.Drawing.Point(435, 69);
             this.Lbl_Upper.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Upper.Name = "Lbl_Upper";
             this.Lbl_Upper.Size = new System.Drawing.Size(43, 28);
@@ -100,8 +107,9 @@
             // 
             // Lbl_Lower
             // 
+            this.Lbl_Lower.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Lower.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_Lower.Location = new System.Drawing.Point(491, 128);
+            this.Lbl_Lower.Location = new System.Drawing.Point(435, 128);
             this.Lbl_Lower.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Lower.Name = "Lbl_Lower";
             this.Lbl_Lower.Size = new System.Drawing.Size(43, 28);
@@ -111,7 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(545, 346);
+            this.ClientSize = new System.Drawing.Size(499, 366);
             this.Controls.Add(this.Lbl_Lower);
             this.Controls.Add(this.Lbl_Upper);
             this.Controls.Add(this.Lbl_Maius);
@@ -120,7 +128,7 @@
             this.Controls.Add(this.Txt_Msg);
             this.Controls.Add(this.Txt_Input);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_DemonstracaoKey";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Demonstração Evento Key";
