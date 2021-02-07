@@ -24,8 +24,21 @@ namespace CursoWindowsForms
 
         private void helloWordToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_HelloWorld abir = new Frm_HelloWorld();
-            abir.Show();
+            // isntanciando o user control o formulario 
+            fRM_hELLOwORD_uc u = new fRM_hELLOwORD_uc();
+
+            //criei uma TABPAGE
+            TabPage TB = new TabPage();
+
+            //colocando as propriedades nome texto
+            TB.Name = "Hello World";
+            TB.Text = "Hello World";
+
+            // colocando o formulado dentro da TABPage
+            TB.Controls.Add(u);
+
+            // adicionando as aplicações ao componente
+            Tbc_Aplicacoes.TabPages.Add(TB); 
         }
 
         private void mascaraToolStripMenuItem_Click(object sender, EventArgs e)
