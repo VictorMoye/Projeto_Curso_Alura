@@ -33,12 +33,16 @@ namespace CursoWindowsForms
             //colocando as propriedades nome texto
             TB.Name = "Hello World";
             TB.Text = "Hello World";
-
+            // adicionando imagens 
+            TB.ImageIndex = 1;
             // colocando o formulado dentro da TABPage
             TB.Controls.Add(u);
 
             // adicionando as aplicações ao componente
             Tbc_Aplicacoes.TabPages.Add(TB); 
+
+            
+
         }
 
         private void mascaraToolStripMenuItem_Click(object sender, EventArgs e)

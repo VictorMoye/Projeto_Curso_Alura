@@ -29,18 +29,21 @@ namespace CursoWindowsForms
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal_Menu_UC));
             this.Mnu_Principal = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.demostraçãoKeyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helloWordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mascaraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
             this.validaCPFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validaCPF2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validaSenhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
+            this.IML_Imagem = new System.Windows.Forms.ImageList(this.components);
             this.Mnu_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +55,7 @@ namespace CursoWindowsForms
             this.windowsToolStripMenuItem});
             this.Mnu_Principal.Location = new System.Drawing.Point(0, 0);
             this.Mnu_Principal.Name = "Mnu_Principal";
-            this.Mnu_Principal.Size = new System.Drawing.Size(800, 30);
+            this.Mnu_Principal.Size = new System.Drawing.Size(800, 28);
             this.Mnu_Principal.TabIndex = 2;
             this.Mnu_Principal.Text = "menuStrip3";
             // 
@@ -62,7 +65,7 @@ namespace CursoWindowsForms
             this.novoToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
-            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
+            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
             // 
             // novoToolStripMenuItem
@@ -75,7 +78,7 @@ namespace CursoWindowsForms
             this.validaCPF2ToolStripMenuItem,
             this.validaSenhaToolStripMenuItem});
             this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
-            this.novoToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.novoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.novoToolStripMenuItem.Text = "Novo";
             // 
             // demostraçãoKeyToolStripMenuItem
@@ -101,28 +104,6 @@ namespace CursoWindowsForms
             this.mascaraToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
             this.mascaraToolStripMenuItem.Text = "&Mascara";
             this.mascaraToolStripMenuItem.Click += new System.EventHandler(this.mascaraToolStripMenuItem_Click);
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
-            // 
-            // windowsToolStripMenuItem
-            // 
-            this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
-            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(84, 26);
-            this.windowsToolStripMenuItem.Text = "Windows";
-            // 
-            // Tbc_Aplicacoes
-            // 
-            this.Tbc_Aplicacoes.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 30);
-            this.Tbc_Aplicacoes.Name = "Tbc_Aplicacoes";
-            this.Tbc_Aplicacoes.SelectedIndex = 0;
-            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 420);
-            this.Tbc_Aplicacoes.TabIndex = 3;
             // 
             // validaCPFToolStripMenuItem
             // 
@@ -150,6 +131,40 @@ namespace CursoWindowsForms
             this.validaSenhaToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
             this.validaSenhaToolStripMenuItem.Text = "Valida &Senha";
             this.validaSenhaToolStripMenuItem.Click += new System.EventHandler(this.validaSenhaToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // windowsToolStripMenuItem
+            // 
+            this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
+            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.windowsToolStripMenuItem.Text = "Windows";
+            // 
+            // Tbc_Aplicacoes
+            // 
+            this.Tbc_Aplicacoes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Tbc_Aplicacoes.ImageList = this.IML_Imagem;
+            this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 28);
+            this.Tbc_Aplicacoes.Name = "Tbc_Aplicacoes";
+            this.Tbc_Aplicacoes.SelectedIndex = 0;
+            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 422);
+            this.Tbc_Aplicacoes.TabIndex = 3;
+            // 
+            // IML_Imagem
+            // 
+            this.IML_Imagem.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("IML_Imagem.ImageStream")));
+            this.IML_Imagem.TransparentColor = System.Drawing.Color.Transparent;
+            this.IML_Imagem.Images.SetKeyName(0, "Frm_DemonstracaoKey.png");
+            this.IML_Imagem.Images.SetKeyName(1, "Frm_HelloWorld.png");
+            this.IML_Imagem.Images.SetKeyName(2, "Frm_Mascara.png");
+            this.IML_Imagem.Images.SetKeyName(3, "Frm_ValidaCPF.png");
+            this.IML_Imagem.Images.SetKeyName(4, "Frm_ValidaCPF2.png");
+            this.IML_Imagem.Images.SetKeyName(5, "Frm_ValidaSenha.png");
             // 
             // Frm_Principal_Menu_UC
             // 
@@ -181,5 +196,6 @@ namespace CursoWindowsForms
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem validaSenhaToolStripMenuItem;
         private System.Windows.Forms.TabControl Tbc_Aplicacoes;
+        private System.Windows.Forms.ImageList IML_Imagem;
     }
 }
