@@ -89,6 +89,12 @@
     <Compile Include="Formularios Curso 1\Frm_ValidaSenha.Designer.cs">
       <DependentUpon>Frm_ValidaSenha.cs</DependentUpon>
     </Compile>
+    <Compile Include="fRM_hELLOwORD_uc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="fRM_hELLOwORD_uc.Designer.cs">
+      <DependentUpon>fRM_hELLOwORD_uc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,12 @@
     </Compile>
     <Compile Include="Frm_Principal_menu_MDI.Designer.cs">
       <DependentUpon>Frm_Principal_menu_MDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Principal_Menu_UC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal_Menu_UC.Designer.cs">
+      <DependentUpon>Frm_Principal_Menu_UC.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -127,6 +139,9 @@
     <EmbeddedResource Include="Formularios Curso 1\Frm_ValidaSenha.resx">
       <DependentUpon>Frm_ValidaSenha.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fRM_hELLOwORD_uc.resx">
+      <DependentUpon>fRM_hELLOwORD_uc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal_menu_MDI.resx">
       <DependentUpon>Frm_Principal_menu_MDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal_Menu_UC.resx">
+      <DependentUpon>Frm_Principal_Menu_UC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
