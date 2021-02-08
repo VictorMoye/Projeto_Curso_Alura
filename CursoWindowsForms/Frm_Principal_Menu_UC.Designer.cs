@@ -44,6 +44,7 @@ namespace CursoWindowsForms
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
             this.IML_Imagem = new System.Windows.Forms.ImageList(this.components);
+            this.apagarAbaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Mnu_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,7 +56,7 @@ namespace CursoWindowsForms
             this.windowsToolStripMenuItem});
             this.Mnu_Principal.Location = new System.Drawing.Point(0, 0);
             this.Mnu_Principal.Name = "Mnu_Principal";
-            this.Mnu_Principal.Size = new System.Drawing.Size(800, 28);
+            this.Mnu_Principal.Size = new System.Drawing.Size(800, 30);
             this.Mnu_Principal.TabIndex = 2;
             this.Mnu_Principal.Text = "menuStrip3";
             // 
@@ -63,6 +64,7 @@ namespace CursoWindowsForms
             // 
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.novoToolStripMenuItem,
+            this.apagarAbaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
@@ -149,10 +151,10 @@ namespace CursoWindowsForms
             // 
             this.Tbc_Aplicacoes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Tbc_Aplicacoes.ImageList = this.IML_Imagem;
-            this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 28);
+            this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 30);
             this.Tbc_Aplicacoes.Name = "Tbc_Aplicacoes";
             this.Tbc_Aplicacoes.SelectedIndex = 0;
-            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 422);
+            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 420);
             this.Tbc_Aplicacoes.TabIndex = 3;
             // 
             // IML_Imagem
@@ -165,6 +167,13 @@ namespace CursoWindowsForms
             this.IML_Imagem.Images.SetKeyName(3, "Frm_ValidaCPF.png");
             this.IML_Imagem.Images.SetKeyName(4, "Frm_ValidaCPF2.png");
             this.IML_Imagem.Images.SetKeyName(5, "Frm_ValidaSenha.png");
+            // 
+            // apagarAbaToolStripMenuItem
+            // 
+            this.apagarAbaToolStripMenuItem.Name = "apagarAbaToolStripMenuItem";
+            this.apagarAbaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.apagarAbaToolStripMenuItem.Text = "Apagar Aba";
+            this.apagarAbaToolStripMenuItem.Click += new System.EventHandler(this.apagarAbaToolStripMenuItem_Click);
             // 
             // Frm_Principal_Menu_UC
             // 
@@ -197,5 +206,6 @@ namespace CursoWindowsForms
         private System.Windows.Forms.ToolStripMenuItem validaSenhaToolStripMenuItem;
         private System.Windows.Forms.TabControl Tbc_Aplicacoes;
         private System.Windows.Forms.ImageList IML_Imagem;
+        private System.Windows.Forms.ToolStripMenuItem apagarAbaToolStripMenuItem;
     }
 }

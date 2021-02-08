@@ -16,6 +16,7 @@ namespace CursoWindowsForms
         {
             InitializeComponent();
         }
+        int ControleHellowldId = 0;
         private void demostraçãoKeyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_DemonstracaoKey abir = new Frm_DemonstracaoKey();
@@ -24,6 +25,8 @@ namespace CursoWindowsForms
 
         private void helloWordToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // dando o numero de janelas abertas 
+            ControleHellowldId += 1;
             // isntanciando o user control o formulario 
             fRM_hELLOwORD_uc u = new fRM_hELLOwORD_uc();
 
@@ -31,10 +34,12 @@ namespace CursoWindowsForms
             TabPage TB = new TabPage();
 
             //colocando as propriedades nome texto
-            TB.Name = "Hello World";
-            TB.Text = "Hello World";
+            TB.Name = "Hello World" + ControleHellowldId;
+            TB.Text = "Hello World" + ControleHellowldId;
+
             // adicionando imagens 
             TB.ImageIndex = 1;
+
             // colocando o formulado dentro da TABPage
             TB.Controls.Add(u);
 
@@ -72,6 +77,18 @@ namespace CursoWindowsForms
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void apagarAbaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            // controlando apagando somente se tiver tabs selecionadas
+            if (!(Tbc_Aplicacoes.SelectedTab == null))// se tab page não for nula ela entra e apaga as que estao abertas 
+            {
+                // apagando as aplicalçoes que o mause estiver seelcionando 
+                Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.SelectedTab);
+            }
+
         }
     }
 }
