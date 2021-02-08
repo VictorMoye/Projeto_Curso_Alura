@@ -78,7 +78,6 @@
             this.Name = "Frm_ValidaCPF2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Valida CPF";
-            this.Load += new System.EventHandler(this.Frm_ValidaCPF2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

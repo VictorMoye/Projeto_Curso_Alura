@@ -54,3 +54,8 @@ C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Prin
 C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_menu_MDI.resources
 C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.fRM_hELLOwORD_uc.resources
 C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_Menu_UC.resources
+C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Formularioa_UserControl.Frm_DemostracaoKey_UC.resources
+C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Formularioa_UserControl.Frm_Mascara_UC.resources
+C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Formularioa_UserControl.Frm_ValidaCPF_UC.resources
+C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Formularioa_UserControl.Frm_ValidaCPF2_UC.resources
+C:\P\CSharp\CusoWinsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Formularioa_UserControl.Frm_ValidaSenha_UC.resources

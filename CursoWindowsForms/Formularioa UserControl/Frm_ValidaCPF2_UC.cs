@@ -9,15 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CursoWindowsForms
+namespace CursoWindowsForms.Formularioa_UserControl
 {
-    public partial class Frm_ValidaCPF2 : Form
+    public partial class Frm_ValidaCPF2_UC : UserControl
     {
-        public Frm_ValidaCPF2()
+        public Frm_ValidaCPF2_UC()
         {
             InitializeComponent();
         }
-
         private void Btn_Reset_Click(object sender, EventArgs e)
         {
             Msk_CPF.Text = "";
@@ -54,8 +53,10 @@ namespace CursoWindowsForms
                             MessageBox.Show("CPF INVÁLIDO", "Mensagem de Validação", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
-                }              
-            }          
+                }
+            }
         }
-    }
+    
+
+}
 }

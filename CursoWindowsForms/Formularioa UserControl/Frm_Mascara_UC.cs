@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CursoWindowsForms
+namespace CursoWindowsForms.Formularioa_UserControl
 {
-    public partial class Frm_Mascara : Form
+    public partial class Frm_Mascara_UC : UserControl
     {
-        public Frm_Mascara()
+        public Frm_Mascara_UC()
         {
             InitializeComponent();
         }
@@ -25,9 +25,7 @@ namespace CursoWindowsForms
             Lbl_MascaraAtiva.Text = Msk_TextBox.Mask;
             Msk_TextBox.Text = "";
             Msk_TextBox.Focus();
-
         }
-
         private void Btn_VerConteudo_Click(object sender, EventArgs e)
         {
             Lbl_Conteudo.Text = Msk_TextBox.Text;
@@ -81,11 +79,6 @@ namespace CursoWindowsForms
             Lbl_MascaraAtiva.Text = Msk_TextBox.Mask;
             Msk_TextBox.Text = "";
             Msk_TextBox.Focus();
-        }
-
-        private void Frm_Mascara_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

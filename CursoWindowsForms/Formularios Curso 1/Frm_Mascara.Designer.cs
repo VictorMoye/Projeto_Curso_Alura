@@ -168,6 +168,7 @@
             this.Name = "Frm_Mascara";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exemplos de Máscaras";
+            this.Load += new System.EventHandler(this.Frm_Mascara_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
